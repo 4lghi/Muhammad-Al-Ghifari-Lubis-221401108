@@ -1,0 +1,88 @@
+* {
+    text-align: center;
+    
+}
+
+body {
+    background-size: cover;
+}
+
+.carousel > .carousel-inner > .carousel-item > img{
+    width: 100%; /* Yeap you can change the width and height*/
+    height:460px;
+}
+
+.carousel-item img {
+    object-fit: contain; /* Menyesuaikan gambar ke dalam container tanpa memotong atau merubah rasio aspek */
+    width: 100%;
+    height: 100%; /* Menyesuaikan gambar ke tinggi container */
+  }
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0099ff;
+    width: 100%;
+    height: 500px;
+
+}
+
+.carousel-caption {
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.container-tictactoe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0099ff;
+}
+
+h1 {
+    margin: 30px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+.restart {
+    visibility: hidden;
+}
+
+
+.board {
+    margin: 30px;
+    width: 323px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+    background-color: aqua
+}
+
+.container-choice > h1{
+    margin-bottom: 30px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
